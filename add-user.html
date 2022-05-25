@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning the Forms</title>
+</head>
+<body>
+    <h1>Hello, Forms!</h1>
+    
+    <p>Hi User, be a part of the big experience! fill the form below</p>
+
+    <form action="form-handling-url" method="post">
+        <fieldset>
+            <legend>User Details</legend>
+            <br/>
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="First Name">
+            </div>
+            <br/>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="Last Name">
+            </div>
+            <br/>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email">
+            </div>
+            <br/>
+            <div>
+                <label for="role">Roles:</label>
+                <select name="Roles" id="role">
+                    <option value="software">Software Developer</option>
+                    <option value="data">Data Analytics</option>
+                    <option value="product">Product Design</option>
+                    <option value="cloud">Cloud computing</option>
+                    <option value="cyber">Cyber Security</option>
+                </select>
+            </div>
+            <br/>
+            <div>
+                <label for="status">Status:</label>
+                <select name="Status" id="status">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+            <br/>
+            <div>
+                <p>Choose your favourite programming language</p>
+                <label for="html">HTML</label>
+                <input type="radio" id="html" name="HTML">
+                <label for="css">CSS</label>
+                <input type="radio" id="css" name="CSS">
+                <label for="jscript">Javascript</label>
+                <input type="radio" id="jscript" name="Javascript">
+            </div>
+            <br/>
+            <div>
+                <label for="date">Current Date</label>
+                <input type="date" id="date" name="current date">
+            </div>
+            <br/>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments"></textarea>
+            </div>
+            <br/>
+            <div>
+                <label for="newsletter">Sign up for newletter</label>
+                <input type="checkbox" id="newsletter">
+            </div>
+            <br/>
+            <div>
+                <label for="terms">Agree to terms and conditions</label>
+                <input type="checkbox" id="terms">
+            </div>
+            <br/>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <br/>
+        </fieldset>
+    </form>
+</body>
+</html>
